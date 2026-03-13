@@ -2,51 +2,6 @@
   "schema_version": 1,
   "apis": [
     {
-      "name": "1forge",
-      "description": "Stock and Forex Data and Realtime Quotes",
-      "tags": [
-        "data",
-        "finance"
-      ],
-      "spec_url": "https://api.apis.guru/v2/specs/1forge.com/0.0.1/swagger.json",
-      "auth_type": "api_key",
-      "auth_env_var": "1FORGE_API_KEY",
-      "min_mint_version": "0.2.0"
-    },
-    {
-      "name": "1password-connect",
-      "description": "REST API interface for 1Password Connect.",
-      "tags": [
-        "security"
-      ],
-      "spec_url": "https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json",
-      "auth_type": "api_key",
-      "auth_env_var": "1PASSWORD_CONNECT_API_KEY",
-      "min_mint_version": "0.2.0"
-    },
-    {
-      "name": "1password-events",
-      "description": "1Password Events API Specification.",
-      "tags": [
-        "security"
-      ],
-      "spec_url": "https://api.apis.guru/v2/specs/1password.com/events/1.0.0/openapi.json",
-      "auth_type": "api_key",
-      "auth_env_var": "1PASSWORD_EVENTS_API_KEY",
-      "min_mint_version": "0.2.0"
-    },
-    {
-      "name": "6-dot-authentiqiospot",
-      "description": "Strong authentication, without the passwords.",
-      "tags": [
-        "security"
-      ],
-      "spec_url": "https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.json",
-      "auth_type": "api_key",
-      "auth_env_var": "6_DOT_AUTHENTIQIOSPOT_API_KEY",
-      "min_mint_version": "0.2.0"
-    },
-    {
       "name": "ably-control",
       "description": "Use the Control API to manage your applications, namespaces, keys, queues, rules, and more. Detailed information on u...",
       "tags": [
@@ -25921,6 +25876,51 @@
       "spec_url": "https://api.apis.guru/v2/specs/n-auth.com/2.2/swagger.json",
       "auth_type": "api_key",
       "auth_env_var": "N_AUTH_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "n1forge",
+      "description": "Stock and Forex Data and Realtime Quotes",
+      "tags": [
+        "data",
+        "finance"
+      ],
+      "spec_url": "https://api.apis.guru/v2/specs/1forge.com/0.0.1/swagger.json",
+      "auth_type": "api_key",
+      "auth_env_var": "X_1FORGE_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "n1password-connect",
+      "description": "REST API interface for 1Password Connect.",
+      "tags": [
+        "security"
+      ],
+      "spec_url": "https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json",
+      "auth_type": "api_key",
+      "auth_env_var": "X_1PASSWORD_CONNECT_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "n1password-events",
+      "description": "1Password Events API Specification.",
+      "tags": [
+        "security"
+      ],
+      "spec_url": "https://api.apis.guru/v2/specs/1password.com/events/1.0.0/openapi.json",
+      "auth_type": "api_key",
+      "auth_env_var": "X_1PASSWORD_EVENTS_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "n6-dot-authentiqiospot",
+      "description": "Strong authentication, without the passwords.",
+      "tags": [
+        "security"
+      ],
+      "spec_url": "https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.json",
+      "auth_type": "api_key",
+      "auth_env_var": "X_6_DOT_AUTHENTIQIOSPOT_API_KEY",
       "min_mint_version": "0.2.0"
     },
     {
