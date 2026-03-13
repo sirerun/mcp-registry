@@ -474,7 +474,7 @@
     },
     {
       "name": "afterbanks",
-      "description": "La estandarización de la conexión con cualquier banco en tiempo real.",
+      "description": "La estandarizaci\u00f3n de la conexi\u00f3n con cualquier banco en tiempo real.",
       "tags": [
         "finance",
         "data"
@@ -510,7 +510,7 @@
     },
     {
       "name": "aiception",
-      "description": "Here you can play \u0026 test \u0026 prototype all the endpoints using just your browser! Go ahead!",
+      "description": "Here you can play & test & prototype all the endpoints using just your browser! Go ahead!",
       "tags": [
         "ai",
         "ml"
@@ -583,7 +583,7 @@
     },
     {
       "name": "alertersystem",
-      "description": "\u003cp\u003eThis is the \u003ca href=\"/\"\u003eAlerter System\u003c/a\u003e API playground. More documentation is available at the \u003ca href=\"/help/d...",
+      "description": "<p>This is the <a href=\"/\">Alerter System</a> API playground. More documentation is available at the <a href=\"/help/d...",
       "tags": [
         "data"
       ],
@@ -640,7 +640,7 @@
         "e-commerce",
         "security"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/amadeus.com/amadeus-airport-\u0026-city-search/1.2.3/swagger.json",
+      "spec_url": "https://api.apis.guru/v2/specs/amadeus.com/amadeus-airport-&-city-search/1.2.3/swagger.json",
       "auth_type": "api_key",
       "auth_env_var": "AMADEUS_AMADEUS_AIRPORT_CITY_SEARCH_API_KEY",
       "min_mint_version": "0.2.0"
@@ -2715,7 +2715,7 @@
     },
     {
       "name": "amazonaws-honeycode",
-      "description": "Amazon Honeycode is a fully managed service that allows you to quickly build mobile and web apps for teams—without programming. Build Honeycode app...",
+      "description": "Amazon Honeycode is a fully managed service that allows you to quickly build mobile and web apps for teams\u2014without programming. Build Honeycode app...",
       "tags": [
         "cloud",
         "dev-tools",
@@ -2829,7 +2829,7 @@
     },
     {
       "name": "amazonaws-iot-jobs-data",
-      "description": "AWS IoT Jobs is a service that allows you to define a set of jobs — remote operations that are sent to and executed on one or more devices connecte...",
+      "description": "AWS IoT Jobs is a service that allows you to define a set of jobs \u2014 remote operations that are sent to and executed on one or more devices connecte...",
       "tags": [
         "cloud",
         "data",
@@ -5175,7 +5175,7 @@
     },
     {
       "name": "apideck-vault",
-      "description": "Welcome to the Vault API 👋 When you're looking to connect to an API, the first step is authentication. Vault helps you handle OAuth flows, store AP...",
+      "description": "Welcome to the Vault API \ud83d\udc4b When you're looking to connect to an API, the first step is authentication. Vault helps you handle OAuth flows, store AP...",
       "tags": [
         "e-commerce",
         "communication",
@@ -5205,7 +5205,7 @@
     },
     {
       "name": "apiebay-sell-account",
-      "description": "The \u003cb\u003eAccount API\u003c/b\u003e gives sellers the ability to configure their eBay seller accounts, including the seller's poli...",
+      "description": "The <b>Account API</b> gives sellers the ability to configure their eBay seller accounts, including the seller's poli...",
       "tags": [
         "e-commerce",
         "data"
@@ -5217,7 +5217,7 @@
     },
     {
       "name": "apiebay-sell-analytics",
-      "description": "The \u003ci\u003eAnalytics API\u003c/i\u003e provides data and information about a seller and their eBay business. \u003cbr\u003e\u003cbr\u003eThe resources ...",
+      "description": "The <i>Analytics API</i> provides data and information about a seller and their eBay business. <br><br>The resources ...",
       "tags": [
         "e-commerce",
         "data"
@@ -5333,7 +5333,7 @@
     },
     {
       "name": "apisetugovin-aiimsmangalagiri",
-      "description": "AIIMS Mangalagiri is one of the AIIMS healthcare institutes being established by the Ministry of Health \u0026 Family Welfare, Government of India.",
+      "description": "AIIMS Mangalagiri is one of the AIIMS healthcare institutes being established by the Ministry of Health & Family Welfare, Government of India.",
       "tags": [
         "data",
         "healthcare"
@@ -5438,7 +5438,7 @@
     },
     {
       "name": "apisetugovin-barti",
-      "description": "APIs provided by Dr. Babasaheb Ambedkar Research \u0026 Training Institute, Maharashtra.",
+      "description": "APIs provided by Dr. Babasaheb Ambedkar Research & Training Institute, Maharashtra.",
       "tags": [
         "data"
       ],
@@ -5509,7 +5509,7 @@
     },
     {
       "name": "apisetugovin-bsehr",
-      "description": "Board of School Education, Haryana (http://www.bseh.org.in/home/) has made available 2016-2019 Class XII \u0026 Class X results in DigiLocker, which can...",
+      "description": "Board of School Education, Haryana (http://www.bseh.org.in/home/) has made available 2016-2019 Class XII & Class X results in DigiLocker, which can...",
       "tags": [
         "data",
         "education",
@@ -5638,7 +5638,7 @@
     },
     {
       "name": "apisetugovin-dbraitandaman",
-      "description": "APIs provided by Dr. B.R. Ambedkar Institute of Technology,Andaman \u0026 Nicobar Islands.",
+      "description": "APIs provided by Dr. B.R. Ambedkar Institute of Technology,Andaman & Nicobar Islands.",
       "tags": [
         "data"
       ],
@@ -5739,7 +5739,7 @@
     },
     {
       "name": "apisetugovin-edistrictandaman",
-      "description": "eDistrict Andaman (https://edistrict.andaman.gov.in/) is the online service delivery portal for Andaman \u0026 Nicobar Islands. Certain documents issued...",
+      "description": "eDistrict Andaman (https://edistrict.andaman.gov.in/) is the online service delivery portal for Andaman & Nicobar Islands. Certain documents issued...",
       "tags": [
         "data",
         "productivity",
@@ -5840,7 +5840,7 @@
     },
     {
       "name": "apisetugovin-enibandhanjh",
-      "description": "Department of Revenue, Registration \u0026 Land Reforms, Jharkhand (http://www.jharkhand.gov.in/revenue) is issuing Registration Certificate of Deeds in...",
+      "description": "Department of Revenue, Registration & Land Reforms, Jharkhand (http://www.jharkhand.gov.in/revenue) is issuing Registration Certificate of Deeds in...",
       "tags": [
         "data"
       ],
@@ -5890,7 +5890,7 @@
     },
     {
       "name": "apisetugovin-fsdhr",
-      "description": "Ration Cards issued by Food \u0026 Supplies Department, Haryana (http://haryanafood.gov.in/) are available for download on DigiLocker.",
+      "description": "Ration Cards issued by Food & Supplies Department, Haryana (http://haryanafood.gov.in/) are available for download on DigiLocker.",
       "tags": [
         "data",
         "hr",
@@ -6040,7 +6040,7 @@
     },
     {
       "name": "apisetugovin-hpbose",
-      "description": "Himachal Pradesh Board of School Education, Dharamshala (http://hpbose.org/) has made available Class X (2012-18) \u0026 Class XII (2012-18) provisional...",
+      "description": "Himachal Pradesh Board of School Education, Dharamshala (http://hpbose.org/) has made available Class X (2012-18) & Class XII (2012-18) provisional...",
       "tags": [
         "data",
         "education",
@@ -6164,7 +6164,7 @@
     },
     {
       "name": "apisetugovin-igrmaharashtra",
-      "description": "Dept of Registration \u0026 Stamps, Maharashtra (https://esearchigr.maharashtra.gov.in) is issuing digital Leave \u0026 License Certificates into citizens' D...",
+      "description": "Dept of Registration & Stamps, Maharashtra (https://esearchigr.maharashtra.gov.in) is issuing digital Leave & License Certificates into citizens' D...",
       "tags": [
         "data",
         "vcs"
@@ -6214,7 +6214,7 @@
     },
     {
       "name": "apisetugovin-jac",
-      "description": "Jharkhand Academic Council (JAC) is issuing marksheets \u0026 passing certificates through DigiLocker. These can be pulled by students into their DigiLo...",
+      "description": "Jharkhand Academic Council (JAC) is issuing marksheets & passing certificates through DigiLocker. These can be pulled by students into their DigiLo...",
       "tags": [
         "data",
         "education",
@@ -6347,7 +6347,7 @@
     },
     {
       "name": "apisetugovin-ktech",
-      "description": "eSigned certificates issued by Department of Information Technology, Biotechnology and Science \u0026Technology (http://itbt.karnataka.gov.in/pages/home...",
+      "description": "eSigned certificates issued by Department of Information Technology, Biotechnology and Science &Technology (http://itbt.karnataka.gov.in/pages/home...",
       "tags": [
         "data",
         "hr",
@@ -6532,7 +6532,7 @@
     },
     {
       "name": "apisetugovin-mriu",
-      "description": "Manav Rachna International Institute of Research \u0026 Studies, Faridabad (http://manavrachna.edu.in) is issuing Degree certificates through DigiLocker...",
+      "description": "Manav Rachna International Institute of Research & Studies, Faridabad (http://manavrachna.edu.in) is issuing Degree certificates through DigiLocker...",
       "tags": [
         "data",
         "education",
@@ -6602,7 +6602,7 @@
     },
     {
       "name": "apisetugovin-neilit",
-      "description": "NIELIT, under Ministry of Electronics \u0026 IT (http://www.nielit.gov.in/) provides education and training in the area of Information, Electronics \u0026 Co...",
+      "description": "NIELIT, under Ministry of Electronics & IT (http://www.nielit.gov.in/) provides education and training in the area of Information, Electronics & Co...",
       "tags": [
         "data",
         "education",
@@ -6826,7 +6826,7 @@
     },
     {
       "name": "apisetugovin-punjabteched",
-      "description": "APIs provided by The Punjab State Board of Technical Education \u0026 Industrial Training.",
+      "description": "APIs provided by The Punjab State Board of Technical Education & Industrial Training.",
       "tags": [
         "data",
         "education",
@@ -6852,7 +6852,7 @@
     },
     {
       "name": "apisetugovin-rajasthanrajeduboard",
-      "description": "Board of High School and Intermediate Education, Rajasthan (http://rajeduboard.rajasthan.gov.in/) has made available Class X (2018-2019)\u0026 Class XII...",
+      "description": "Board of High School and Intermediate Education, Rajasthan (http://rajeduboard.rajasthan.gov.in/) has made available Class X (2018-2019)& Class XII...",
       "tags": [
         "data",
         "education",
@@ -6878,7 +6878,7 @@
     },
     {
       "name": "apisetugovin-revenueassam",
-      "description": "APIs provided by Revenue \u0026 Disaster Management Department, Assam, Assam.",
+      "description": "APIs provided by Revenue & Disaster Management Department, Assam, Assam.",
       "tags": [
         "data"
       ],
@@ -6900,7 +6900,7 @@
     },
     {
       "name": "apisetugovin-sainikwelfarepud",
-      "description": "Department of Sainik Welfare Society (www.sainikwelfare.puducherry.gov.in) is issuing digital \u002634;Dependency Certificate\u002634; . These certificates a...",
+      "description": "Department of Sainik Welfare Society (www.sainikwelfare.puducherry.gov.in) is issuing digital &34;Dependency Certificate&34; . These certificates a...",
       "tags": [
         "data",
         "hr",
@@ -7025,7 +7025,7 @@
     },
     {
       "name": "apisetugovin-transport",
-      "description": "Driving License (DL) \u0026 Vehicle Registration Certificate (RC) as available in Ministry of Transport's SARATHI \u0026 VAHAN portals (http://morth.nic.in/)...",
+      "description": "Driving License (DL) & Vehicle Registration Certificate (RC) as available in Ministry of Transport's SARATHI & VAHAN portals (http://morth.nic.in/)...",
       "tags": [
         "data"
       ],
@@ -7218,7 +7218,7 @@
     },
     {
       "name": "apisetugovin-transportka",
-      "description": "Driving License (DL) \u0026 Vehicle Registration Certificate (RC) as issued by Transport Department, Government of Karnataka (http://transport.karnataka...",
+      "description": "Driving License (DL) & Vehicle Registration Certificate (RC) as issued by Transport Department, Government of Karnataka (http://transport.karnataka...",
       "tags": [
         "data",
         "project-management"
@@ -7458,7 +7458,7 @@
     },
     {
       "name": "apisetugovin-ubseuk",
-      "description": "Uttarakhand Board of School Education, Ramnagar (http://ubse.uk.gov.in/) has made available Class X (2018) \u0026 Class XII (2018) mark sheet-cum-certif...",
+      "description": "Uttarakhand Board of School Education, Ramnagar (http://ubse.uk.gov.in/) has made available Class X (2018) & Class XII (2018) mark sheet-cum-certif...",
       "tags": [
         "data",
         "education",
@@ -7496,7 +7496,7 @@
     },
     {
       "name": "apisetugovin-upmsp",
-      "description": "Board of High School and Intermediate Education, Allahabad (https://upmsp.edu.in) has made available Class X \u0026 Class XII (2013-2017) results, as de...",
+      "description": "Board of High School and Intermediate Education, Allahabad (https://upmsp.edu.in) has made available Class X & Class XII (2013-2017) results, as de...",
       "tags": [
         "data",
         "education",
@@ -7571,7 +7571,7 @@
     },
     {
       "name": "apizebay-commerce-identity",
-      "description": "\u003cspan class=\"tablenote\"\u003e\u003cb\u003eNote:\u003c/b\u003e Not all the account related fields are returned for an authenticated user. The f...",
+      "description": "<span class=\"tablenote\"><b>Note:</b> Not all the account related fields are returned for an authenticated user. The f...",
       "tags": [
         "e-commerce",
         "data"
@@ -7806,7 +7806,7 @@
     },
     {
       "name": "autodealerdata",
-      "description": "\u003cdiv style=\"\"\u003eThis API provides access to our Automotive Data. Use of this API is subject to our \u003ca href=\"https://aut...",
+      "description": "<div style=\"\">This API provides access to our Automotive Data. Use of this API is subject to our <a href=\"https://aut...",
       "tags": [
         "data"
       ],
@@ -7829,7 +7829,7 @@
     },
     {
       "name": "avaza",
-      "description": "Welcome to the autogenerated documentation \u0026 test tool for Avaza's API. \u003cbr/\u003e\u003cbr/\u003e\u003cstrong\u003eAPI Security \u0026 Authenticati...",
+      "description": "Welcome to the autogenerated documentation & test tool for Avaza's API. <br/><br/><strong>API Security & Authenticati...",
       "tags": [
         "project-management",
         "finance"
@@ -8567,7 +8567,7 @@
     },
     {
       "name": "azure-applicationinsights-swagger",
-      "description": "This API exposes AI metric \u0026 event information and associated metadata",
+      "description": "This API exposes AI metric & event information and associated metadata",
       "tags": [
         "ai",
         "analytics",
@@ -15344,7 +15344,7 @@
     },
     {
       "name": "azure-sqlvirtualmachine-sqlvm",
-      "description": "The SQL virtual machine management API provides a RESTful set of web APIs that interact with Azure Compute, Network \u0026 Storage services to manage yo...",
+      "description": "The SQL virtual machine management API provides a RESTful set of web APIs that interact with Azure Compute, Network & Storage services to manage yo...",
       "tags": [
         "cloud",
         "infrastructure",
@@ -15994,7 +15994,7 @@
     },
     {
       "name": "bbcuk",
-      "description": "We encapsulate Radio \u0026 Music business logic for iPlayer Radio and BBC Music products on all platforms. We add value by reliably providing the right...",
+      "description": "We encapsulate Radio & Music business logic for iPlayer Radio and BBC Music products on all platforms. We add value by reliably providing the right...",
       "tags": [
         "data",
         "e-commerce",
@@ -16108,7 +16108,7 @@
     },
     {
       "name": "bigredcloud",
-      "description": "\u003cdiv style='line-height: 30px;'\u003e \u003cstrong\u003eWelcome to the Big Red Cloud API\u003c/strong\u003e\u003cbr/\u003e This API enables programmatic...",
+      "description": "<div style='line-height: 30px;'> <strong>Welcome to the Big Red Cloud API</strong><br/> This API enables programmatic...",
       "tags": [
         "data"
       ],
@@ -16119,7 +16119,7 @@
     },
     {
       "name": "bikewise",
-      "description": "\u003cp\u003eThis is an API for accessing information about bicycling related incidents. You can find the source code on \u003ca hre...",
+      "description": "<p>This is an API for accessing information about bicycling related incidents. You can find the source code on <a hre...",
       "tags": [
         "data"
       ],
@@ -16472,17 +16472,6 @@
       "min_mint_version": "0.2.0"
     },
     {
-      "name": "canva",
-      "description": "Canva Connect API for designs, folders, and brand management",
-      "tags": [
-        "design"
-      ],
-      "spec_url": "https://www.canva.dev/sources/connect/api/latest/api.yml",
-      "auth_type": "oauth2",
-      "auth_env_var": "CANVA_API_KEY",
-      "min_mint_version": "0.2.0"
-    },
-    {
       "name": "carbondoomsday",
       "description": "A real-time RESTish web API for worldwide carbon dioxide levels.",
       "tags": [
@@ -16623,7 +16612,7 @@
     },
     {
       "name": "citrixonline-gotomeeting",
-      "description": "\u003cbr\u003eThe GoToMeeting API provides seamless integration of GoToMeeting provisioning and meeting management into your ex...",
+      "description": "<br>The GoToMeeting API provides seamless integration of GoToMeeting provisioning and meeting management into your ex...",
       "tags": [
         "cloud",
         "infrastructure"
@@ -16658,7 +16647,7 @@
     },
     {
       "name": "clarify",
-      "description": "The API to Search and Understand Audio \u0026 Video Data.",
+      "description": "The API to Search and Understand Audio & Video Data.",
       "tags": [
         "data"
       ],
@@ -17108,7 +17097,7 @@
     },
     {
       "name": "coreacuk",
-      "description": "\u003cp style=\"text-align: justify;\"\u003eYou can use the CORE API to access the resources harvested and enriched by CORE. If y...",
+      "description": "<p style=\"text-align: justify;\">You can use the CORE API to access the resources harvested and enriched by CORE. If y...",
       "tags": [
         "data"
       ],
@@ -17265,7 +17254,7 @@
     },
     {
       "name": "data2crm",
-      "description": "\u003cp\u003eMake use of our in-depth documentation to get more information about the various functions of the service. Those w...",
+      "description": "<p>Make use of our in-depth documentation to get more information about the various functions of the service. Those w...",
       "tags": [
         "data"
       ],
@@ -17368,7 +17357,7 @@
     },
     {
       "name": "departureboard",
-      "description": "The departureboard.io is a high performance API written in Golang. Its goal is to provide to main functions:\u003cbr\u003e\u003cbr\u003e ...",
+      "description": "The departureboard.io is a high performance API written in Golang. Its goal is to provide to main functions:<br><br> ...",
       "tags": [
         "data"
       ],
@@ -17439,7 +17428,7 @@
     },
     {
       "name": "deutschebahn-stada",
-      "description": "An API providing master data for German railway stations by DB Station\u0026Service AG.",
+      "description": "An API providing master data for German railway stations by DB Station&Service AG.",
       "tags": [
         "data",
         "analytics"
@@ -17484,7 +17473,7 @@
     },
     {
       "name": "digitallockergovin-authpartner",
-      "description": "To access files in user’s DigiLocker account from your application, you must first obtain user’s authorization.",
+      "description": "To access files in user\u2019s DigiLocker account from your application, you must first obtain user\u2019s authorization.",
       "tags": [
         "data",
         "storage"
@@ -17531,7 +17520,7 @@
     },
     {
       "name": "discourse",
-      "description": "This page contains the documentation on how to use Discourse through API calls. \u003e Note: For any endpoints not listed you can follow the reverse eng...",
+      "description": "This page contains the documentation on how to use Discourse through API calls. > Note: For any endpoints not listed you can follow the reverse eng...",
       "tags": [
         "communication",
         "hr",
@@ -17546,7 +17535,7 @@
     },
     {
       "name": "dnd5eapi",
-      "description": "Introduction Welcome to the dnd5eapi, the Dungeons \u0026 Dragons 5th Edition API! This documentation should help you familiarize yourself with the reso...",
+      "description": "Introduction Welcome to the dnd5eapi, the Dungeons & Dragons 5th Edition API! This documentation should help you familiarize yourself with the reso...",
       "tags": [
         "messaging",
         "video",
@@ -17642,7 +17631,7 @@
     },
     {
       "name": "dracoonteam",
-      "description": "REST Web Services for DRACOON\u003cbr\u003e\u003cbr\u003eThis page provides an overview of all available and documented DRACOON APIs, whi...",
+      "description": "REST Web Services for DRACOON<br><br>This page provides an overview of all available and documented DRACOON APIs, whi...",
       "tags": [
         "data"
       ],
@@ -17747,7 +17736,7 @@
     },
     {
       "name": "ebay-buy-deal",
-      "description": "\u003cspan class=\"tablenote\"\u003e\u003cb\u003eNote:\u003c/b\u003e This is a \u003ca href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
+      "description": "<span class=\"tablenote\"><b>Note:</b> This is a <a href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
       "tags": [
         "e-commerce",
         "data"
@@ -17759,7 +17748,7 @@
     },
     {
       "name": "ebay-buy-feed",
-      "description": "\u003cspan class=\"tablenote\"\u003e\u003cb\u003eNote:\u003c/b\u003e This is a \u003ca href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
+      "description": "<span class=\"tablenote\"><b>Note:</b> This is a <a href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
       "tags": [
         "e-commerce",
         "data"
@@ -17831,7 +17820,7 @@
     },
     {
       "name": "ebay-developer-analytics",
-      "description": "The \u003cb\u003eAnalytics API\u003c/b\u003e retrieves call-limit data and the quotas that are set for the RESTful APIs and the legacy Tr...",
+      "description": "The <b>Analytics API</b> retrieves call-limit data and the quotas that are set for the RESTful APIs and the legacy Tr...",
       "tags": [
         "e-commerce",
         "data"
@@ -17843,7 +17832,7 @@
     },
     {
       "name": "ebay-sell-account",
-      "description": "The \u003cb\u003eAccount API\u003c/b\u003e gives sellers the ability to configure their eBay seller accounts, including the seller's poli...",
+      "description": "The <b>Account API</b> gives sellers the ability to configure their eBay seller accounts, including the seller's poli...",
       "tags": [
         "e-commerce",
         "data"
@@ -17855,7 +17844,7 @@
     },
     {
       "name": "ebay-sell-analytics",
-      "description": "The \u003ci\u003eAnalytics API\u003c/i\u003e provides data and information about a seller and their eBay business. \u003cbr\u003e\u003cbr\u003eThe resources ...",
+      "description": "The <i>Analytics API</i> provides data and information about a seller and their eBay business. <br><br>The resources ...",
       "tags": [
         "e-commerce",
         "data"
@@ -17879,7 +17868,7 @@
     },
     {
       "name": "ebay-sell-feed",
-      "description": "\u003cp\u003eThe \u003cstrong\u003eFeed API\u003c/strong\u003e lets sellers upload input files, download reports and files including their status, ...",
+      "description": "<p>The <strong>Feed API</strong> lets sellers upload input files, download reports and files including their status, ...",
       "tags": [
         "e-commerce",
         "data"
@@ -17903,7 +17892,7 @@
     },
     {
       "name": "ebay-sell-listing",
-      "description": "\u003cspan class=\"tablenote\"\u003e\u003cb\u003eNote:\u003c/b\u003e This is a \u003ca href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
+      "description": "<span class=\"tablenote\"><b>Note:</b> This is a <a href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
       "tags": [
         "e-commerce",
         "data"
@@ -17915,7 +17904,7 @@
     },
     {
       "name": "ebay-sell-logistics",
-      "description": "\u003cspan class=\"tablenote\"\u003e\u003cb\u003eNote:\u003c/b\u003e This is a \u003ca href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
+      "description": "<span class=\"tablenote\"><b>Note:</b> This is a <a href=\"https://developer.ebay.com/api-docs/static/versioning.html#li...",
       "tags": [
         "e-commerce",
         "data"
@@ -17927,7 +17916,7 @@
     },
     {
       "name": "ebay-sell-marketing",
-      "description": "\u003cp\u003eThe \u003ci\u003eMarketing API \u003c/i\u003e offers two platforms that sellers can use to promote and advertise their products:\u003c/p\u003e \u003c...",
+      "description": "<p>The <i>Marketing API </i> offers two platforms that sellers can use to promote and advertise their products:</p> <...",
       "tags": [
         "e-commerce",
         "data"
@@ -17951,7 +17940,7 @@
     },
     {
       "name": "ebay-sell-negotiation",
-      "description": "The \u003cb\u003eNegotiations API\u003c/b\u003e gives sellers the ability to proactively send discount offers to buyers who have shown an...",
+      "description": "The <b>Negotiations API</b> gives sellers the ability to proactively send discount offers to buyers who have shown an...",
       "tags": [
         "e-commerce",
         "data"
@@ -17963,7 +17952,7 @@
     },
     {
       "name": "ebay-sell-recommendation",
-      "description": "The \u003cb\u003eRecommendation API\u003c/b\u003e returns information that sellers can use to optimize the configuration of their listing...",
+      "description": "The <b>Recommendation API</b> returns information that sellers can use to optimize the configuration of their listing...",
       "tags": [
         "e-commerce",
         "data"
@@ -17975,7 +17964,7 @@
     },
     {
       "name": "ebiacuk",
-      "description": "# About CROssBAR \u0026 data **CROssBAR**: Comprehensive Resource of Biomedical Relations with Deep Learning Applications ...",
+      "description": "# About CROssBAR & data **CROssBAR**: Comprehensive Resource of Biomedical Relations with Deep Learning Applications ...",
       "tags": [
         "data"
       ],
@@ -18021,7 +18010,7 @@
     },
     {
       "name": "elmah",
-      "description": "This is the public REST API for elmah.io. All of the integrations communicates with elmah.io through this API.\u003cbr/\u003e\u003cb...",
+      "description": "This is the public REST API for elmah.io. All of the integrations communicates with elmah.io through this API.<br/><b...",
       "tags": [
         "data"
       ],
@@ -18200,7 +18189,7 @@
     },
     {
       "name": "europeanaeu",
-      "description": "This Swagger API console provides an overview of the Europeana Search \u0026 Record API. You can build and test anything f...",
+      "description": "This Swagger API console provides an overview of the Europeana Search & Record API. You can build and test anything f...",
       "tags": [
         "data",
         "education"
@@ -18279,7 +18268,7 @@
     },
     {
       "name": "extpose",
-      "description": "Extpose — in‑store performance analytics and optimization tool for Chrome extensions. [https://extpose.com](https://e...",
+      "description": "Extpose \u2014 in\u2011store performance analytics and optimization tool for Chrome extensions. [https://extpose.com](https://e...",
       "tags": [
         "data"
       ],
@@ -18435,7 +18424,7 @@
     },
     {
       "name": "firstinspires",
-      "description": "\u003chtml\u003e\u003chead\u003e\u003c/head\u003e\u003cbody\u003e\u003ch1 id=\"overview\"\u003eOverview\u003c/h1\u003e \u003cp\u003e\u003cem\u003eFIRST\u003c/em\u003e/FMS FRC Events API is a service to return ...",
+      "description": "<html><head></head><body><h1 id=\"overview\">Overview</h1> <p><em>FIRST</em>/FMS FRC Events API is a service to return ...",
       "tags": [
         "data",
         "analytics"
@@ -18837,7 +18826,7 @@
     },
     {
       "name": "geodatasource",
-      "description": "GeoDataSource™ Web Service is a REST API enable user to lookup for a city by using latitude and longitude coordinate. It will return the result in ...",
+      "description": "GeoDataSource\u2122 Web Service is a REST API enable user to lookup for a city by using latitude and longitude coordinate. It will return the result in ...",
       "tags": [
         "data",
         "vcs"
@@ -18864,7 +18853,7 @@
     },
     {
       "name": "gerermesaffaires",
-      "description": "Sécurisez vos données en interfaçant votre logiciel métier avec le service en ligne GererMesAffaires",
+      "description": "S\u00e9curisez vos donn\u00e9es en interfa\u00e7ant votre logiciel m\u00e9tier avec le service en ligne GererMesAffaires",
       "tags": [
         "data"
       ],
@@ -20599,7 +20588,7 @@
     },
     {
       "name": "googleapis-displayvideo",
-      "description": "Display \u0026 Video 360 API allows users to automate complex Display \u0026 Video 360 workflows, such as creating insertion orders and setting targeting opt...",
+      "description": "Display & Video 360 API allows users to automate complex Display & Video 360 workflows, such as creating insertion orders and setting targeting opt...",
       "tags": [
         "analytics",
         "automation",
@@ -21627,7 +21616,7 @@
     },
     {
       "name": "googleapis-mybusinessqanda",
-      "description": "The My Business Q\u0026A API allows questions and answers to be posted for specific listings. Note - If you have a quota of 0 after enabling the API, pl...",
+      "description": "The My Business Q&A API allows questions and answers to be posted for specific listings. Note - If you have a quota of 0 after enabling the API, pl...",
       "tags": [
         "analytics",
         "real-estate",
@@ -23164,7 +23153,7 @@
     },
     {
       "name": "groundhog-day",
-      "description": "This API returns all of North America’s prognosticating animals and their yearly weather predictions.",
+      "description": "This API returns all of North America\u2019s prognosticating animals and their yearly weather predictions.",
       "tags": [
         "ml"
       ],
@@ -23437,7 +23426,7 @@
     },
     {
       "name": "httpbin",
-      "description": "A simple HTTP Request \u0026 Response Service.  Run locally:  $ docker run -p 80:80 kennethreitz/httpbin",
+      "description": "A simple HTTP Request & Response Service.  Run locally:  $ docker run -p 80:80 kennethreitz/httpbin",
       "tags": [
         "communication",
         "dev-tools",
@@ -23614,7 +23603,7 @@
         "marketing",
         "automation"
       ],
-      "spec_url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts",
+      "spec_url": "https://raw.githubusercontent.com/HubSpot/HubSpot-public-api-spec-collection/main/PublicApiSpecs/CRM/Contacts/Rollouts/424/v3/contacts.json",
       "auth_type": "oauth2",
       "auth_env_var": "HUBSPOT_API_KEY",
       "min_mint_version": "0.2.0"
@@ -23683,7 +23672,7 @@
     },
     {
       "name": "ideaconsult-enanomapper",
-      "description": "AMBIT REST web services [eNanoMapper profile] with free text \u0026 faceted search",
+      "description": "AMBIT REST web services [eNanoMapper profile] with free text & faceted search",
       "tags": [
         "data",
         "storage"
@@ -23695,7 +23684,7 @@
     },
     {
       "name": "ideaconsult-nanoreg",
-      "description": "AMBIT REST web services [eNanoMapper profile] with free text \u0026 faceted search",
+      "description": "AMBIT REST web services [eNanoMapper profile] with free text & faceted search",
       "tags": [
         "data",
         "storage"
@@ -23735,7 +23724,7 @@
     },
     {
       "name": "ijenko",
-      "description": "IoE² IoT API - to create end-user applications",
+      "description": "IoE\u00b2 IoT API - to create end-user applications",
       "tags": [
         "iot"
       ],
@@ -23875,7 +23864,7 @@
     },
     {
       "name": "influxdata",
-      "description": "Authentication \u0026lt;!-- ReDoc-Inject: \u0026lt;security-definitions\u0026gt; --\u0026gt;",
+      "description": "Authentication &lt;!-- ReDoc-Inject: &lt;security-definitions&gt; --&gt;",
       "tags": [
         "data",
         "iot",
@@ -24243,7 +24232,7 @@
     },
     {
       "name": "ip2location",
-      "description": "IP2Location.io IP Geolocation API provides RESTful API to obtain visitors’ geolocation information such as country, region, city, latitude \u0026 longit...",
+      "description": "IP2Location.io IP Geolocation API provides RESTful API to obtain visitors\u2019 geolocation information such as country, region, city, latitude & longit...",
       "tags": [
         "data",
         "dev-tools",
@@ -24326,7 +24315,7 @@
     },
     {
       "name": "iqualify",
-      "description": "The iQualify API offers management responses for building learning experiences using your iQualify instance data. Once you’ve registered with iQual...",
+      "description": "The iQualify API offers management responses for building learning experiences using your iQualify instance data. Once you\u2019ve registered with iQual...",
       "tags": [
         "data",
         "dev-tools",
@@ -24351,7 +24340,7 @@
     },
     {
       "name": "isendpro",
-      "description": "[1] Liste des fonctionnalités : - envoi de SMS à un ou plusieurs destinataires, - lookup HLR, - récupération des récapitulatifs de campagne, - gest...",
+      "description": "[1] Liste des fonctionnalit\u00e9s : - envoi de SMS \u00e0 un ou plusieurs destinataires, - lookup HLR, - r\u00e9cup\u00e9ration des r\u00e9capitulatifs de campagne, - gest...",
       "tags": [
         "communication",
         "messaging",
@@ -24486,7 +24475,7 @@
     },
     {
       "name": "jumpseller",
-      "description": "Endpoint Structure All URLs are in the format: ```text https://api.jumpseller.com/v1/path.json?login=XXXXXX\u0026authtoken=storetoken ``` The path is pr...",
+      "description": "Endpoint Structure All URLs are in the format: ```text https://api.jumpseller.com/v1/path.json?login=XXXXXX&authtoken=storetoken ``` The path is pr...",
       "tags": [
         "e-commerce",
         "communication",
@@ -24837,7 +24826,7 @@
     },
     {
       "name": "listennotes",
-      "description": "Simple \u0026 no-nonsense podcast search \u0026 directory API. Search all podcasts and episodes by people, places, or topics.",
+      "description": "Simple & no-nonsense podcast search & directory API. Search all podcasts and episodes by people, places, or topics.",
       "tags": [
         "analytics",
         "data",
@@ -25350,7 +25339,7 @@
     },
     {
       "name": "meraki",
-      "description": "The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification. \u003e Date: 05 March, 2023 \u003e \u003e Recent Updates --- API Documenta...",
+      "description": "The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification. > Date: 05 March, 2023 > > Recent Updates --- API Documenta...",
       "tags": [
         "iot",
         "productivity",
@@ -25774,7 +25763,7 @@
     },
     {
       "name": "mist",
-      "description": "\u003e Version: **0.36.1** \u003e \u003e Date: **March 3, 2022** --- Available Documentation * Postman * Open API --- Useful links * Mist Homepage * Mist Document...",
+      "description": "> Version: **0.36.1** > > Date: **March 3, 2022** --- Available Documentation * Postman * Open API --- Useful links * Mist Homepage * Mist Document...",
       "tags": [
         "e-commerce",
         "productivity"
@@ -25849,7 +25838,7 @@
     },
     {
       "name": "moonmoonmoonmoon",
-      "description": "Turn nothing into something – make a drawing, make a mark.",
+      "description": "Turn nothing into something \u2013 make a drawing, make a mark.",
       "tags": [
         "ai"
       ],
@@ -26121,7 +26110,7 @@
     },
     {
       "name": "nebl",
-      "description": "APIs for Interacting with NTP1 Tokens \u0026 The Neblio Blockchain",
+      "description": "APIs for Interacting with NTP1 Tokens & The Neblio Blockchain",
       "tags": [
         "productivity"
       ],
@@ -26185,7 +26174,7 @@
     },
     {
       "name": "netlicensing",
-      "description": "The Labs64 NetLicensing RESTful API gives you access to NetLicensing’s core features.AuthenticationYou authenticate to the NetLicensing API by prov...",
+      "description": "The Labs64 NetLicensing RESTful API gives you access to NetLicensing\u2019s core features.AuthenticationYou authenticate to the NetLicensing API by prov...",
       "tags": [
         "dev-tools",
         "hr",
@@ -26698,7 +26687,7 @@
     },
     {
       "name": "ntropywork",
-      "description": "Ntropy Transaction API for transaction classification \u0026 management Contact Support: Name: API Support Email: api@ntropy.network",
+      "description": "Ntropy Transaction API for transaction classification & management Contact Support: Name: API Support Email: api@ntropy.network",
       "tags": [
         "finance",
         "payments",
@@ -26996,7 +26985,7 @@
         "ai",
         "ml"
       ],
-      "spec_url": "https://raw.githubusercontent.com/openai/openai-openapi/refs/heads/master/openapi.yaml",
+      "spec_url": "https://raw.githubusercontent.com/openai/openai-openapi/2025-03-21/openapi.yaml",
       "auth_type": "bearer",
       "auth_env_var": "OPENAI_API_KEY",
       "min_mint_version": "0.2.0"
@@ -27172,7 +27161,7 @@
     },
     {
       "name": "openfigi",
-      "description": "A free \u0026 open API for FIGI discovery.",
+      "description": "A free & open API for FIGI discovery.",
       "tags": [
         "data"
       ],
@@ -27236,7 +27225,7 @@
     },
     {
       "name": "openstates",
-      "description": "* More documentation * Register for an account **We are currently working to restore experimental support for committees \u0026 events.** During this pe...",
+      "description": "* More documentation * Register for an account **We are currently working to restore experimental support for committees & events.** During this pe...",
       "tags": [
         "e-commerce",
         "support",
@@ -27430,7 +27419,7 @@
     },
     {
       "name": "ote-godaddy-abuse",
-      "description": "GoDaddy Abuse API Terms of Use:GoDaddy’s Abuse API is provided to simplify and standardize the abuse reporting experience. To help us streamline th...",
+      "description": "GoDaddy Abuse API Terms of Use:GoDaddy\u2019s Abuse API is provided to simplify and standardize the abuse reporting experience. To help us streamline th...",
       "tags": [
         "video",
         "analytics",
@@ -28286,7 +28275,7 @@
     },
     {
       "name": "prss",
-      "description": "ContentDepot hosts a range of API’s that allow clients to manage, discover, and obtain content. The API spans many parts of the ContentDepot functi...",
+      "description": "ContentDepot hosts a range of API\u2019s that allow clients to manage, discover, and obtain content. The API spans many parts of the ContentDepot functi...",
       "tags": [
         "e-commerce",
         "communication",
@@ -28301,7 +28290,7 @@
     },
     {
       "name": "ptvvicgovau",
-      "description": "The PTV Timetable API provides direct access to Public Transport Victoria’s public transport timetable data. The API returns scheduled timetable, r...",
+      "description": "The PTV Timetable API provides direct access to Public Transport Victoria\u2019s public transport timetable data. The API returns scheduled timetable, r...",
       "tags": [
         "communication",
         "hr",
@@ -28450,7 +28439,7 @@
     },
     {
       "name": "rapidapi-ecowetter",
-      "description": "Abfrage von Wetterdaten aus der Vergangenheit. Der maximale Abfragezeitraum beträgt 366 Tage (1 Jahr).",
+      "description": "Abfrage von Wetterdaten aus der Vergangenheit. Der maximale Abfragezeitraum betr\u00e4gt 366 Tage (1 Jahr).",
       "tags": [
         "data",
         "hr"
@@ -28905,7 +28894,7 @@
     },
     {
       "name": "salesforce-einstein",
-      "description": "Provided by Salesforce � Copyright 2000�2020 salesforce.com, inc. All rights reserved. Salesforce is a registered trademark of salesforce.com, inc....",
+      "description": "Provided by Salesforce \ufffd Copyright 2000\ufffd2020 salesforce.com, inc. All rights reserved. Salesforce is a registered trademark of salesforce.com, inc....",
       "tags": [
         "crm",
         "data"
@@ -29160,7 +29149,7 @@
     },
     {
       "name": "shop-projp",
-      "description": "カラーミーショップアプリストア API アプリストアにて公開するアプリに対して、一般公開しているカラーミーショップAPIに加えて、カラーミーショップアプリストアAPI（以下、アプリストアAPIといいます）を利用することが出来ます。アプリストアAPIでは以下のことが行えます。 - 課金データ(ア...",
+      "description": "\u30ab\u30e9\u30fc\u30df\u30fc\u30b7\u30e7\u30c3\u30d7\u30a2\u30d7\u30ea\u30b9\u30c8\u30a2 API \u30a2\u30d7\u30ea\u30b9\u30c8\u30a2\u306b\u3066\u516c\u958b\u3059\u308b\u30a2\u30d7\u30ea\u306b\u5bfe\u3057\u3066\u3001\u4e00\u822c\u516c\u958b\u3057\u3066\u3044\u308b\u30ab\u30e9\u30fc\u30df\u30fc\u30b7\u30e7\u30c3\u30d7API\u306b\u52a0\u3048\u3066\u3001\u30ab\u30e9\u30fc\u30df\u30fc\u30b7\u30e7\u30c3\u30d7\u30a2\u30d7\u30ea\u30b9\u30c8\u30a2API\uff08\u4ee5\u4e0b\u3001\u30a2\u30d7\u30ea\u30b9\u30c8\u30a2API\u3068\u3044\u3044\u307e\u3059\uff09\u3092\u5229\u7528\u3059\u308b\u3053\u3068\u304c\u51fa\u6765\u307e\u3059\u3002\u30a2\u30d7\u30ea\u30b9\u30c8\u30a2API\u3067\u306f\u4ee5\u4e0b\u306e\u3053\u3068\u304c\u884c\u3048\u307e\u3059\u3002 - \u8ab2\u91d1\u30c7\u30fc\u30bf(\u30a2...",
       "tags": [
         "e-commerce",
         "payments",
@@ -29187,7 +29176,7 @@
     },
     {
       "name": "shortenrest",
-      "description": "Introduction The Shorten.rest API allows you to programmatically create short URLs (an \u0026apos;alias\u0026apos;) for longer URL (a \u0026apos;destination\u0026apos;...",
+      "description": "Introduction The Shorten.rest API allows you to programmatically create short URLs (an &apos;alias&apos;) for longer URL (a &apos;destination&apos;...",
       "tags": [
         "communication",
         "analytics",
@@ -29967,7 +29956,7 @@
     },
     {
       "name": "stackexchange",
-      "description": "Stack Exchange is a network of 130+ Q\u0026A communities including Stack Overflow.",
+      "description": "Stack Exchange is a network of 130+ Q&A communities including Stack Overflow.",
       "tags": [
         "dev-tools",
         "infrastructure",
@@ -30207,7 +30196,7 @@
     },
     {
       "name": "symanto",
-      "description": "We aim to provide the deepest understanding of people through psychology \u0026 AI",
+      "description": "We aim to provide the deepest understanding of people through psychology & AI",
       "tags": [
         "analytics",
         "data",
@@ -30255,7 +30244,7 @@
     },
     {
       "name": "taxamo",
-      "description": "Taxamo’s elegant suite of APIs and comprehensive reporting dashboard enables digital merchants to easily comply with EU regulatory requirements on ...",
+      "description": "Taxamo\u2019s elegant suite of APIs and comprehensive reporting dashboard enables digital merchants to easily comply with EU regulatory requirements on ...",
       "tags": [
         "e-commerce",
         "payments",
@@ -30285,7 +30274,7 @@
     },
     {
       "name": "tcgdex",
-      "description": "A Multilanguage Pokémon TCG Database with Cards Pictures and most of the informations contained on the cards. You can find out more about TCGdex at...",
+      "description": "A Multilanguage Pok\u00e9mon TCG Database with Cards Pictures and most of the informations contained on the cards. You can find out more about TCGdex at...",
       "tags": [
         "data"
       ],
@@ -30646,7 +30635,7 @@
     },
     {
       "name": "tradematic",
-      "description": "Overview Tradematic Cloud is a trading infrastructure for building investment services. It’s a trading engine + API + ready-made adapters to stock ...",
+      "description": "Overview Tradematic Cloud is a trading infrastructure for building investment services. It\u2019s a trading engine + API + ready-made adapters to stock ...",
       "tags": [
         "finance",
         "security",
@@ -31009,18 +30998,6 @@
       "min_mint_version": "0.2.0"
     },
     {
-      "name": "twitter-v2",
-      "description": "Twitter/X API v2 for tweets, users, spaces, and direct messages",
-      "tags": [
-        "social",
-        "messaging"
-      ],
-      "spec_url": "https://api.x.com/2/openapi.json",
-      "auth_type": "bearer",
-      "auth_env_var": "TWITTER_BEARER_TOKEN",
-      "min_mint_version": "0.2.0"
-    },
-    {
       "name": "tyk",
       "description": "Gateway REST API",
       "tags": [
@@ -31255,7 +31232,7 @@
     },
     {
       "name": "viator",
-      "description": "\u0026lt;style type='text/css'\u0026gt; code { white-space: nowrap; } a { font-weight: bold; } figure { width: 100%; text-align: center; font-style: italic; ...",
+      "description": "&lt;style type='text/css'&gt; code { white-space: nowrap; } a { font-weight: bold; } figure { width: 100%; text-align: center; font-style: italic; ...",
       "tags": [
         "e-commerce",
         "payments",
@@ -31306,7 +31283,7 @@
     },
     {
       "name": "visagecloud",
-      "description": "Face search, recognition \u0026 classification API. Just make a call to our REST API each time your app needs to access face recognition and classificat...",
+      "description": "Face search, recognition & classification API. Just make a call to our REST API each time your app needs to access face recognition and classificat...",
       "tags": [
         "cloud",
         "communication",
@@ -31454,7 +31431,7 @@
     },
     {
       "name": "vtex-catalog-api",
-      "description": "\u003e Check the new Catalog onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docum...",
+      "description": "> Check the new Catalog onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docum...",
       "tags": [
         "e-commerce",
         "finance",
@@ -31469,7 +31446,7 @@
     },
     {
       "name": "vtex-catalog-api-seller-portal",
-      "description": "With the Catalog API for Seller Portal, you will be able to create, edit and consult products and their variations, brands, and categories. \u003e This ...",
+      "description": "With the Catalog API for Seller Portal, you will be able to create, edit and consult products and their variations, brands, and categories. > This ...",
       "tags": [
         "data",
         "dev-tools",
@@ -31483,7 +31460,7 @@
     },
     {
       "name": "vtex-checkout-api",
-      "description": "\u003eℹ️ Check the new Checkout onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all do...",
+      "description": ">\u2139\ufe0f Check the new Checkout onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all do...",
       "tags": [
         "e-commerce",
         "payments",
@@ -31513,7 +31490,7 @@
     },
     {
       "name": "vtex-giftcard-api",
-      "description": "\u003eℹ️ Onboarding guide \u003e \u003e Check the new Payments onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX...",
+      "description": ">\u2139\ufe0f Onboarding guide > > Check the new Payments onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX...",
       "tags": [
         "dev-tools",
         "e-commerce",
@@ -31528,7 +31505,7 @@
     },
     {
       "name": "vtex-giftcard-hub-api",
-      "description": "\u003eℹ️ Check the new Payments onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all do...",
+      "description": ">\u2139\ufe0f Check the new Payments onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all do...",
       "tags": [
         "e-commerce",
         "payments",
@@ -31558,7 +31535,7 @@
     },
     {
       "name": "vtex-intelligent-search-api",
-      "description": "\u003eℹ️ Onboarding guide \u003e \u003e Check the new Search onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. ...",
+      "description": ">\u2139\ufe0f Onboarding guide > > Check the new Search onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. ...",
       "tags": [
         "data",
         "dev-tools",
@@ -31586,7 +31563,7 @@
     },
     {
       "name": "vtex-logistics-api",
-      "description": "\u003eCheck the Fulfillment onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docume...",
+      "description": ">Check the Fulfillment onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docume...",
       "tags": [
         "dev-tools",
         "e-commerce",
@@ -31600,7 +31577,7 @@
     },
     {
       "name": "vtex-marketplace-apis",
-      "description": "The **Marketplace API** enables marketplaces and sellers hosted on VTEX to perform their collaborative operations. \u003e⚠️ The marketplace must create ...",
+      "description": "The **Marketplace API** enables marketplaces and sellers hosted on VTEX to perform their collaborative operations. >\u26a0\ufe0f The marketplace must create ...",
       "tags": [
         "e-commerce",
         "communication",
@@ -31615,7 +31592,7 @@
     },
     {
       "name": "vtex-marketplace-apis-api",
-      "description": "The **Marketplace API** enables marketplaces and sellers hosted on VTEX to perform their collaborative operations. \u003e⚠️ The marketplace must create ...",
+      "description": "The **Marketplace API** enables marketplaces and sellers hosted on VTEX to perform their collaborative operations. >\u26a0\ufe0f The marketplace must create ...",
       "tags": [
         "e-commerce",
         "communication",
@@ -31682,7 +31659,7 @@
     },
     {
       "name": "vtex-orders-api",
-      "description": "\u003eCheck the new Orders onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all documen...",
+      "description": ">Check the new Orders onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all documen...",
       "tags": [
         "dev-tools",
         "e-commerce",
@@ -31708,7 +31685,7 @@
     },
     {
       "name": "vtex-payments-gateway-api",
-      "description": "\u003eℹ️ Onboarding guide \u003e \u003e Check the new Payments onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX...",
+      "description": ">\u2139\ufe0f Onboarding guide > > Check the new Payments onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX...",
       "tags": [
         "e-commerce",
         "payments",
@@ -31736,7 +31713,7 @@
     },
     {
       "name": "vtex-price-simulations",
-      "description": "\u003e Check the new Pricing onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docum...",
+      "description": "> Check the new Pricing onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docum...",
       "tags": [
         "dev-tools",
         "e-commerce",
@@ -31750,7 +31727,7 @@
     },
     {
       "name": "vtex-pricing-api",
-      "description": "\u003e Check the new Pricing onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docum...",
+      "description": "> Check the new Pricing onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docum...",
       "tags": [
         "automation",
         "communication",
@@ -31765,7 +31742,7 @@
     },
     {
       "name": "vtex-pricing-hub",
-      "description": "\u003e This feature is in closed beta, available only for selected customers. If you have any questions, contact our Support. In the B2B scenario, it is...",
+      "description": "> This feature is in closed beta, available only for selected customers. If you have any questions, contact our Support. In the B2B scenario, it is...",
       "tags": [
         "e-commerce",
         "payments",
@@ -31792,7 +31769,7 @@
     },
     {
       "name": "vtex-promotions",
-      "description": "\u003e Check the new Promotions onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all do...",
+      "description": "> Check the new Promotions onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all do...",
       "tags": [
         "e-commerce",
         "data",
@@ -31818,7 +31795,7 @@
     },
     {
       "name": "vtex-reviews-and-ratings-api",
-      "description": "Reviews \u0026 Ratings is a VTEX IO native solution that allows shoppers to submit reviews and ratings for products, as well as see them while navigatin...",
+      "description": "Reviews & Ratings is a VTEX IO native solution that allows shoppers to submit reviews and ratings for products, as well as see them while navigatin...",
       "tags": [
         "dev-tools",
         "e-commerce"
@@ -31830,7 +31807,7 @@
     },
     {
       "name": "vtex-search-api",
-      "description": "\u003e Check the new Search onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docume...",
+      "description": "> Check the new Search onboarding guide. We created this guide to improve the onboarding experience for developers at VTEX. It assembles all docume...",
       "tags": [
         "data",
         "dev-tools",
@@ -32016,7 +31993,7 @@
     },
     {
       "name": "wealthreader",
-      "description": "Las APIs regulatorias basadas en PSD2 proporcionan acceso a cierta información financiera como saldos de cuentas bancarias y transacciones. Sin emb...",
+      "description": "Las APIs regulatorias basadas en PSD2 proporcionan acceso a cierta informaci\u00f3n financiera como saldos de cuentas bancarias y transacciones. Sin emb...",
       "tags": [
         "hr",
         "productivity"
@@ -32040,7 +32017,7 @@
     },
     {
       "name": "weber-gesamtausgabede",
-      "description": "⚠️DEPRECATION WARNING⚠️This version of the WeGA API specification is outdated and superseded by version 1.1.0.   For feedback or requests about thi...",
+      "description": "\u26a0\ufe0fDEPRECATION WARNING\u26a0\ufe0fThis version of the WeGA API specification is outdated and superseded by version 1.1.0.   For feedback or requests about thi...",
       "tags": [
         "data",
         "vcs"
@@ -32101,7 +32078,7 @@
     },
     {
       "name": "whapi-bets",
-      "description": "The Bets API methods are used to place single, multiple and complex bets and to retrieve a customer’s bet history. When retrieving a customer’s bet...",
+      "description": "The Bets API methods are used to place single, multiple and complex bets and to retrieve a customer\u2019s bet history. When retrieving a customer\u2019s bet...",
       "tags": [
         "video"
       ],
@@ -32139,7 +32116,7 @@
     },
     {
       "name": "whapi-sessions",
-      "description": "The William Hill Sessions API uses a central authentication service (CAS*) on all resources that require access to a customer’s account or betting ...",
+      "description": "The William Hill Sessions API uses a central authentication service (CAS*) on all resources that require access to a customer\u2019s account or betting ...",
       "tags": [
         "payments",
         "video",
@@ -32603,19 +32580,6 @@
       "spec_url": "https://api.apis.guru/v2/specs/zalando.com/v1.0/swagger.json",
       "auth_type": "api_key",
       "auth_env_var": "ZALANDO_API_KEY",
-      "min_mint_version": "0.2.0"
-    },
-    {
-      "name": "zapier-ai-actions",
-      "description": "Zapier AI Actions API for executing 20,000+ app actions via natural language",
-      "tags": [
-        "automation",
-        "ai",
-        "workflow"
-      ],
-      "spec_url": "https://actions.zapier.com/gpt/api/v1/dynamic/openapi.json?tools=meta",
-      "auth_type": "bearer",
-      "auth_env_var": "ZAPIER_NLA_API_KEY",
       "min_mint_version": "0.2.0"
     },
     {

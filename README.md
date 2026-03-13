@@ -1,6 +1,6 @@
 # MCP Registry
 
-A registry of **2,580 OpenAPI specifications** for use with the [mint](https://github.com/sirerun/mint) CLI. Mint converts OpenAPI specs into MCP (Model Context Protocol) servers, and this registry provides a catalog of API specs ready for generation.
+A registry of **2,577 OpenAPI specifications** for use with the [mint](https://github.com/sirerun/mint) CLI. Mint converts OpenAPI specs into MCP (Model Context Protocol) servers, and this registry provides a catalog of API specs ready for generation.
 
 ## How It Works
 
