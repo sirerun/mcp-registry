@@ -1,6 +1,6 @@
 # MCP Registry
 
-A registry of **2,593 OpenAPI specifications** for use with the [mint](https://github.com/sirerun/mint) CLI. Mint converts OpenAPI specs into MCP (Model Context Protocol) servers, and this registry provides a catalog of API specs ready for generation.
+A registry of **2,580 OpenAPI specifications** for use with the [mint](https://github.com/sirerun/mint) CLI. Mint converts OpenAPI specs into MCP (Model Context Protocol) servers, and this registry provides a catalog of API specs ready for generation.
 
 ## How It Works
 
@@ -9,7 +9,7 @@ The registry is a single `registry.json` file sorted alphabetically by name. Eac
 - **name** -- unique kebab-case identifier (e.g., `stripe`, `google-gmail`)
 - **description** -- brief summary of what the API does
 - **spec_url** -- direct URL to the OpenAPI/Swagger spec (JSON or YAML)
-- **auth_type** -- authentication method (`api_key`, `oauth2`, `bearer`, `basic`)
+- **auth_type** -- authentication method (`api_key`, `oauth2`, `bearer`)
 - **auth_env_var** -- environment variable name for the API credential
 - **tags** -- categorization labels for search and filtering
 - **min_mint_version** -- minimum mint version required
@@ -38,24 +38,23 @@ The registry covers integrations from platforms like Make.com, n8n, and Zapier, 
 
 | Tag | APIs | Tag | APIs |
 |-----|-----:|-----|-----:|
-| data | 1,186 | communication | 309 |
-| cloud | 1,086 | e-commerce | 303 |
-| dev-tools | 512 | project-management | 291 |
-| security | 492 | storage | 217 |
-| video | 489 | support | 187 |
-| analytics | 464 | payments | 161 |
-| infrastructure | 438 | messaging | 140 |
-| hr | 331 | monitoring | 119 |
-| productivity | 315 | finance | 98 |
+| data | 1,094 | communication | 309 |
+| cloud | 993 | e-commerce | 301 |
+| video | 484 | project-management | 193 |
+| security | 458 | payments | 159 |
+| analytics | 457 | storage | 158 |
+| dev-tools | 364 | support | 142 |
+| infrastructure | 358 | messaging | 139 |
+| hr | 292 | monitoring | 115 |
+| productivity | 223 | finance | 96 |
 
 ### By auth type
 
 | Auth Type | APIs |
 |-----------|-----:|
-| api_key | 2,088 |
-| oauth2 | 428 |
-| bearer | 60 |
-| basic | 17 |
+| api_key | 2,101 |
+| oauth2 | 423 |
+| bearer | 56 |
 
 ### Notable integrations
 
