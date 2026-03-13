@@ -1,0 +1,27 @@
+name: Validate Registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Validate registry schema and fields
+        working-directory: tools
+        run: go run validate.go ../registry.json
+
+      - name: Check spec URLs are reachable
+        working-directory: tools
+        run: go run validate.go ../registry.json
+        env:
+          CHECK_URLS: "true"

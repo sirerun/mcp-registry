@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "apis": [
+    {
+      "name": "twitter-v2",
+      "description": "Twitter/X API v2 for tweets, users, spaces, and direct messages",
+      "tags": ["social", "messaging"],
+      "spec_url": "https://api.twitter.com/2/openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "TWITTER_BEARER_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "github",
+      "description": "GitHub REST API for repositories, issues, pull requests, and actions",
+      "tags": ["social", "dev-tools", "vcs"],
+      "spec_url": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json",
+      "auth_type": "bearer",
+      "auth_env_var": "GITHUB_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "stripe",
+      "description": "Stripe API for payments, subscriptions, invoices, and financial operations",
+      "tags": ["payments", "e-commerce"],
+      "spec_url": "https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json",
+      "auth_type": "bearer",
+      "auth_env_var": "STRIPE_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "slack",
+      "description": "Slack Web API for channels, messages, users, and workspace management",
+      "tags": ["messaging", "communication"],
+      "spec_url": "https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json",
+      "auth_type": "bearer",
+      "auth_env_var": "SLACK_BOT_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "discord",
+      "description": "Discord API for guilds, channels, messages, and bot management (community-maintained spec)",
+      "tags": ["messaging", "social"],
+      "spec_url": "https://raw.githubusercontent.com/discord/discord-api-spec/main/specs/openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "DISCORD_BOT_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "openai",
+      "description": "OpenAI API for chat completions, embeddings, images, and assistants",
+      "tags": ["ai", "ml"],
+      "spec_url": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
+      "auth_type": "bearer",
+      "auth_env_var": "OPENAI_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "anthropic",
+      "description": "Anthropic API for Claude chat completions and message streaming",
+      "tags": ["ai", "ml"],
+      "spec_url": "https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/main/openapi.json",
+      "auth_type": "api_key",
+      "auth_env_var": "ANTHROPIC_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "jira",
+      "description": "Atlassian Jira Cloud REST API for issues, projects, boards, and sprints",
+      "tags": ["dev-tools", "project-management"],
+      "spec_url": "https://dac-static.atlassian.com/cloud/jira/platform/swagger-v3.v3.json",
+      "auth_type": "bearer",
+      "auth_env_var": "JIRA_API_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "linear",
+      "description": "Linear API for issues, projects, teams, and cycle management",
+      "tags": ["dev-tools", "project-management"],
+      "spec_url": "https://raw.githubusercontent.com/linearapp/linear/main/packages/sdk/openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "LINEAR_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "notion",
+      "description": "Notion API for pages, databases, blocks, and workspace content",
+      "tags": ["dev-tools", "productivity"],
+      "spec_url": "https://storage.googleapis.com/notion-developers/openapi/v1/notion-openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "NOTION_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "gitlab",
+      "description": "GitLab REST API for repositories, merge requests, pipelines, and CI/CD",
+      "tags": ["dev-tools", "vcs"],
+      "spec_url": "https://gitlab.com/gitlab-org/gitlab/-/raw/master/doc/api/openapi/openapi.yaml",
+      "auth_type": "bearer",
+      "auth_env_var": "GITLAB_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "datadog",
+      "description": "Datadog API for monitoring, dashboards, metrics, and alerting",
+      "tags": ["infrastructure", "monitoring"],
+      "spec_url": "https://raw.githubusercontent.com/DataDog/datadog-api-client-go/master/.generator/schemas/v2/openapi.yaml",
+      "auth_type": "api_key",
+      "auth_env_var": "DATADOG_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "pagerduty",
+      "description": "PagerDuty API for incident management, on-call schedules, and escalation policies",
+      "tags": ["infrastructure", "incident-management"],
+      "spec_url": "https://raw.githubusercontent.com/PagerDuty/api-schema/main/reference/REST/openapiv3.json",
+      "auth_type": "bearer",
+      "auth_env_var": "PAGERDUTY_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "cloudflare",
+      "description": "Cloudflare API for DNS, CDN, workers, and security configuration",
+      "tags": ["infrastructure", "cloud"],
+      "spec_url": "https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "CLOUDFLARE_API_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "sendgrid",
+      "description": "SendGrid API for transactional and marketing email delivery",
+      "tags": ["communication", "email"],
+      "spec_url": "https://raw.githubusercontent.com/twilio/sendgrid-oai/main/oai.json",
+      "auth_type": "bearer",
+      "auth_env_var": "SENDGRID_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "twilio",
+      "description": "Twilio API for SMS, voice calls, and communication workflows",
+      "tags": ["communication", "messaging"],
+      "spec_url": "https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json",
+      "auth_type": "api_key",
+      "auth_env_var": "TWILIO_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "shopify",
+      "description": "Shopify Admin REST API for products, orders, customers, and store management",
+      "tags": ["e-commerce", "payments"],
+      "spec_url": "https://raw.githubusercontent.com/allengrant/shopify_openapi/master/shopify_openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "SHOPIFY_ACCESS_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "mixpanel",
+      "description": "Mixpanel API for product analytics, event tracking, and user insights",
+      "tags": ["analytics", "data"],
+      "spec_url": "https://raw.githubusercontent.com/nicholasgasior/mixpanel-openapi/main/openapi.json",
+      "auth_type": "api_key",
+      "auth_env_var": "MIXPANEL_API_SECRET",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "segment",
+      "description": "Segment Public API for sources, destinations, and tracking configuration",
+      "tags": ["analytics", "data"],
+      "spec_url": "https://raw.githubusercontent.com/segmentio/public-api-spec-go/main/openapi.json",
+      "auth_type": "bearer",
+      "auth_env_var": "SEGMENT_API_TOKEN",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "petstore",
+      "description": "OpenAPI Petstore sample API for testing and demonstration purposes",
+      "tags": ["dev-tools", "testing"],
+      "spec_url": "https://petstore3.swagger.io/api/v3/openapi.json",
+      "auth_type": "api_key",
+      "auth_env_var": "PETSTORE_API_KEY",
+      "min_mint_version": "0.2.0"
+    }
+  ]
+}

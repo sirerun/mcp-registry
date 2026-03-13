@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MCP Registry",
+  "description": "Schema for the mint MCP registry index",
+  "type": "object",
+  "required": ["schema_version", "apis"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Registry schema version"
+    },
+    "apis": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/api_entry"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "api_entry": {
+      "type": "object",
+      "required": [
+        "name",
+        "description",
+        "tags",
+        "spec_url",
+        "auth_type",
+        "auth_env_var",
+        "min_mint_version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "description": "Unique lowercase identifier for the API"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Human-readable description of the API"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 5,
+          "description": "Categorization tags"
+        },
+        "spec_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the OpenAPI specification"
+        },
+        "auth_type": {
+          "type": "string",
+          "enum": ["bearer", "api_key", "oauth2", "none"],
+          "description": "Authentication mechanism"
+        },
+        "auth_env_var": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]*$",
+          "description": "Environment variable name for the API credential"
+        },
+        "min_mint_version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Minimum mint CLI version required"
+        }
+      }
+    }
+  }
+}
