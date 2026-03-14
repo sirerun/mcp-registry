@@ -23551,6 +23551,19 @@
       "min_mint_version": "0.2.0"
     },
     {
+      "name": "hubspot",
+      "description": "HubSpot CRM API for contacts, companies, deals, and marketing automation",
+      "tags": [
+        "crm",
+        "marketing",
+        "automation"
+      ],
+      "spec_url": "https://raw.githubusercontent.com/HubSpot/HubSpot-public-api-spec-collection/main/PublicApiSpecs/CRM/Contacts/Rollouts/424/v3/contacts.json",
+      "auth_type": "bearer",
+      "auth_env_var": "HUBSPOT_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
       "name": "hubspot-crm",
       "description": "HubSpot CRM API for contacts, companies, deals, and pipelines management",
       "tags": [
@@ -23929,7 +23942,7 @@
         "support",
         "crm"
       ],
-      "spec_url": "https://developers.intercom.com/docs/references/2.10/rest-api/api.intercom.io/",
+      "spec_url": "https://raw.githubusercontent.com/intercom/Intercom-OpenAPI/main/descriptions/2.10/api.intercom.io.yaml",
       "auth_type": "bearer",
       "auth_env_var": "INTERCOM_API_KEY",
       "min_mint_version": "0.2.0"
@@ -26550,6 +26563,18 @@
       "min_mint_version": "0.2.0"
     },
     {
+      "name": "notion",
+      "description": "Notion API for pages, databases, blocks, and workspace management",
+      "tags": [
+        "productivity",
+        "project-management"
+      ],
+      "spec_url": "https://raw.githubusercontent.com/konfig-sdks/openapi-examples/HEAD/notion/openapi.yaml",
+      "auth_type": "bearer",
+      "auth_env_var": "NOTION_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
       "name": "novu",
       "description": "Novu API for multi-channel notifications and notification infrastructure",
       "tags": [
@@ -28887,7 +28912,7 @@
         "crm",
         "automation"
       ],
-      "spec_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+      "spec_url": "https://raw.githubusercontent.com/salesforce-marketingcloud/mcsdk-automation-framework-core/master/resources/sfmc-openapi-v2.json",
       "auth_type": "oauth2",
       "auth_env_var": "SALESFORCE_API_KEY",
       "min_mint_version": "0.2.0"
@@ -32620,6 +32645,18 @@
       "min_mint_version": "0.2.0"
     },
     {
+      "name": "zendesk",
+      "description": "Zendesk API for tickets, users, organizations, and customer support workflows",
+      "tags": [
+        "support",
+        "crm"
+      ],
+      "spec_url": "https://developer.zendesk.com/zendesk/oas.yaml",
+      "auth_type": "bearer",
+      "auth_env_var": "ZENDESK_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
       "name": "zendesk-support",
       "description": "Zendesk Support API for tickets, users, organizations, and helpdesk management",
       "tags": [
@@ -32664,6 +32701,18 @@
       "spec_url": "https://www.zoho.com/crm/developer/docs/api/v5/",
       "auth_type": "oauth2",
       "auth_env_var": "ZOHO_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "zoom",
+      "description": "Zoom API for meetings, webinars, users, and cloud recordings",
+      "tags": [
+        "communication",
+        "video"
+      ],
+      "spec_url": "https://api.apis.guru/v2/specs/zoom.us/2.0.0/openapi.json",
+      "auth_type": "oauth2",
+      "auth_env_var": "ZOOM_API_KEY",
       "min_mint_version": "0.2.0"
     },
     {
