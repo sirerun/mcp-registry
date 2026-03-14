@@ -10375,7 +10375,7 @@
         "cloud",
         "ml"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/azure.com/cognitiveservices-LUIS-Runtime/v2.0 preview/swagger.json",
+      "spec_url": "https://api.apis.guru/v2/specs/azure.com/cognitiveservices-LUIS-Runtime/v2.0%20preview/swagger.json",
       "auth_type": "api_key",
       "auth_env_var": "AZURE_COGNITIVESERVICES_LUIS_RUNTIME_API_KEY",
       "min_mint_version": "0.2.0"
@@ -17602,7 +17602,7 @@
         "healthcare",
         "data"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/drchrono.com/v4 (Hunt Valley)/openapi.json",
+      "spec_url": "https://api.apis.guru/v2/specs/drchrono.com/v4%20(Hunt%20Valley)/openapi.json",
       "auth_type": "oauth2",
       "auth_env_var": "DRCHRONO_API_KEY",
       "min_mint_version": "0.2.0"
@@ -18149,7 +18149,7 @@
         "data",
         "education"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/europeana.eu/version unknown/swagger.json",
+      "spec_url": "https://api.apis.guru/v2/specs/europeana.eu/version%20unknown/swagger.json",
       "auth_type": "api_key",
       "auth_env_var": "EUROPEANA_EU_API_KEY",
       "min_mint_version": "0.2.0"
@@ -23432,7 +23432,7 @@
       "tags": [
         "data"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/hubapi.com/business units/v3/openapi.json",
+      "spec_url": "https://api.apis.guru/v2/specs/hubapi.com/business%20units/v3/openapi.json",
       "auth_type": "api_key",
       "auth_env_var": "HUBAPI_BUSINESS_UNITS_API_KEY",
       "min_mint_version": "0.2.0"
@@ -24802,7 +24802,7 @@
         "security",
         "vcs"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/ljaero.com/dflight/V 1.0.0/openapi.json",
+      "spec_url": "https://api.apis.guru/v2/specs/ljaero.com/dflight/V%201.0.0/openapi.json",
       "auth_type": "api_key",
       "auth_env_var": "LJAERO_DFLIGHT_API_KEY",
       "min_mint_version": "0.2.0"
@@ -25968,7 +25968,7 @@
       "tags": [
         "data"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/nasa.gov/asteroids neows/3.4.0/openapi.json",
+      "spec_url": "https://api.apis.guru/v2/specs/nasa.gov/asteroids%20neows/3.4.0/openapi.json",
       "auth_type": "api_key",
       "auth_env_var": "NASAGOV_ASTEROIDS_NEOWS_API_KEY",
       "min_mint_version": "0.2.0"
@@ -26544,7 +26544,7 @@
       "tags": [
         "finance"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/nordigen.com/2.0 (v2)/openapi.json",
+      "spec_url": "https://api.apis.guru/v2/specs/nordigen.com/2.0%20(v2)/openapi.json",
       "auth_type": "api_key",
       "auth_env_var": "NORDIGEN_API_KEY",
       "min_mint_version": "0.2.0"
@@ -27047,7 +27047,7 @@
         "messaging",
         "security"
       ],
-      "spec_url": "https://api.apis.guru/v2/specs/openbankingproject.ch/1.3.8_2020-12-14 - Swiss edition 1.3.8.1-CH/openapi.json",
+      "spec_url": "https://api.apis.guru/v2/specs/openbankingproject.ch/1.3.8_2020-12-14%20-%20Swiss%20edition%201.3.8.1-CH/openapi.json",
       "auth_type": "api_key",
       "auth_env_var": "OPENBANKINGPROJECTCH_API_KEY",
       "min_mint_version": "0.2.0"

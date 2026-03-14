@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"regexp"
+	"strings"
 	"time"
 )
 
@@ -106,6 +107,8 @@ func validateRegistry(r Registry) []string {
 
 		if api.SpecURL == "" {
 			errs = append(errs, fmt.Sprintf("%s: spec_url is required", prefix))
+		} else if strings.Contains(api.SpecURL, " ") {
+			errs = append(errs, fmt.Sprintf("%s: spec_url contains unencoded spaces", prefix))
 		}
 
 		if !validAuthTypes[api.AuthType] {
