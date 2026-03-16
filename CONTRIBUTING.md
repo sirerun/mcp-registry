@@ -77,6 +77,17 @@ Use existing tags when possible:
 - **analytics**, **data**
 - **email**, **testing**, **productivity**
 
+## Review Process
+
+Submissions are reviewed using a [Sire workflow](workflows/submission-review.yaml) that runs automatically on each pull request:
+
+1. **Schema validation** -- the entry is checked against `schema.json`
+2. **Spec URL check** -- the `spec_url` must return a successful HTTP response
+3. **Human approval** -- a maintainer reviews the results and approves or requests changes
+4. **Merge** -- once approved, the PR is merged into `main`
+
+Expect a review within a few business days. If your spec URL check fails, update the URL and push a new commit.
+
 ## Code of Conduct
 
 Be respectful. Focus on APIs that are broadly useful and well-maintained.
