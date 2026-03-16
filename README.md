@@ -74,9 +74,39 @@ The registry covers integrations from platforms like Make.com, n8n, and Zapier, 
 
 **Infrastructure** -- AWS, Azure, GCP, DigitalOcean, Cloudflare, Fastly, Hetzner, Linode, Netlify.
 
-## Schema
+## Schema Reference
 
-See [schema.json](schema.json) for the JSON Schema definition of `registry.json`.
+The registry is validated against [schema.json](schema.json) (JSON Schema draft 2020-12). The top-level object has two required fields:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `schema_version` | integer | Must be `1` |
+| `apis` | array | Array of API entry objects |
+
+### API Entry Fields
+
+Each object in the `apis` array must include all of the following fields:
+
+| Field | Type | Constraints | Description |
+|-------|------|-------------|-------------|
+| `name` | string | Pattern: `^[a-z][a-z0-9-]*$` | Unique kebab-case identifier |
+| `description` | string | Min 10 characters | Human-readable summary of the API |
+| `tags` | string[] | 1--5 items | Categorization labels |
+| `spec_url` | string | Valid URI | Direct URL to the OpenAPI spec |
+| `auth_type` | string | `bearer`, `api_key`, `oauth2`, or `none` | Authentication mechanism |
+| `auth_env_var` | string | Pattern: `^[A-Z][A-Z0-9_]*$` | Environment variable for the credential |
+| `min_mint_version` | string | Pattern: `^\d+\.\d+\.\d+$` | Minimum mint CLI version required |
+
+No additional properties are allowed on either the root object or individual entries.
+
+## Submission Review Workflow
+
+New submissions are reviewed using a [Sire workflow template](workflows/submission-review.yaml) that automates validation and requires human approval before merge. The workflow:
+
+1. Validates the new entry against `schema.json`
+2. Verifies the `spec_url` is reachable
+3. Pauses at a human-in-the-loop approval gate
+4. Posts an approval comment on the PR
 
 ## Contributing
 
