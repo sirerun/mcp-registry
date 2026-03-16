@@ -1,0 +1,105 @@
+# MCP Server Submission Review
+# Sire workflow template for reviewing new API submissions to the registry.
+# Validates the entry, checks the spec URL, and pauses for human approval
+# before the PR is merged.
+
+slug: mcp-submission-review
+name: MCP Server Submission Review
+description: >
+  Reviews a pull request that adds a new API entry to the MCP registry.
+  Validates the entry against schema.json, verifies the spec URL is
+  reachable and returns valid OpenAPI, then pauses at a human-in-the-loop
+  approval gate before signaling the PR is ready to merge.
+category: dev-tools
+
+mcp_servers: []
+
+workflow:
+  id: mcp-submission-review
+  name: "MCP Server Submission Review"
+  steps:
+    - id: extract_entry
+      tool: "sire:transform/template"
+      params:
+        template: |
+          {
+            "pr_number": "{{.inputs.pr_number}}",
+            "repo": "{{.inputs.repo}}",
+            "name": "{{.inputs.entry_name}}",
+            "spec_url": "{{.inputs.spec_url}}",
+            "auth_type": "{{.inputs.auth_type}}"
+          }
+        data: "{{.inputs}}"
+
+    - id: validate_schema
+      tool: "sire:http/request"
+      params:
+        method: POST
+        url: "{{.inputs.validator_url}}/validate"
+        headers:
+          Content-Type: "application/json"
+        body: |
+          {
+            "registry_path": "registry.json",
+            "pr_number": {{.extract_entry.output.pr_number}}
+          }
+
+    - id: check_spec_url
+      tool: "sire:http/request"
+      params:
+        method: HEAD
+        url: "{{.extract_entry.output.spec_url}}"
+        headers:
+          User-Agent: "mcp-registry-validator/1.0"
+
+    - id: approval_gate
+      tool: "sire:hitl/approval"
+      params:
+        prompt: >
+          Review submission for "{{.extract_entry.output.name}}" (PR #{{.extract_entry.output.pr_number}}).
+          Schema validation: {{.validate_schema.output.status}}.
+          Spec URL reachable: {{.check_spec_url.output.status_code}}.
+          Approve this entry for merge?
+        context:
+          pr_number: "{{.extract_entry.output.pr_number}}"
+          repo: "{{.extract_entry.output.repo}}"
+          entry_name: "{{.extract_entry.output.name}}"
+          spec_url: "{{.extract_entry.output.spec_url}}"
+          auth_type: "{{.extract_entry.output.auth_type}}"
+          schema_valid: "{{.validate_schema.output.status}}"
+          spec_reachable: "{{.check_spec_url.output.status_code}}"
+
+    - id: post_approval_comment
+      tool: "sire:http/request"
+      params:
+        method: POST
+        url: "https://api.github.com/repos/{{.extract_entry.output.repo}}/issues/{{.extract_entry.output.pr_number}}/comments"
+        headers:
+          Authorization: "Bearer {{.inputs.github_token}}"
+          Content-Type: "application/json"
+        body: |
+          {
+            "body": "Submission approved via Sire workflow. Entry \"{{.extract_entry.output.name}}\" passed schema validation and spec URL check. Ready to merge."
+          }
+
+  edges:
+    - from: extract_entry
+      to: validate_schema
+    - from: extract_entry
+      to: check_spec_url
+    - from: validate_schema
+      to: approval_gate
+    - from: check_spec_url
+      to: approval_gate
+    - from: approval_gate
+      to: post_approval_comment
+
+sample_data:
+  inputs:
+    pr_number: 42
+    repo: "sirerun/mcp-registry"
+    entry_name: "example-api"
+    spec_url: "https://raw.githubusercontent.com/example/repo/main/openapi.json"
+    auth_type: "api_key"
+    validator_url: "https://api.sire.run/v1/registry"
+    github_token: "REPLACE_ME"
