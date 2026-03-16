@@ -32768,6 +32768,18 @@
       "auth_type": "api_key",
       "auth_env_var": "ZUORA_API_KEY",
       "min_mint_version": "0.2.0"
+    },
+    {
+      "name": "sire-email",
+      "description": "Sire Email MCP server for sending, reading, and searching email with SMTP outbound delivery and DKIM signing",
+      "tags": [
+        "email",
+        "communication"
+      ],
+      "spec_url": "https://email.mcp.sire.run/rpc",
+      "auth_type": "bearer",
+      "auth_env_var": "SIRE_API_TOKEN",
+      "min_mint_version": "0.2.0"
     }
   ]
 }
