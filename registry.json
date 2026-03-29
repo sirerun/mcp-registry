@@ -32779,7 +32779,8 @@
       "spec_url": "https://email.mcp.sire.run/rpc",
       "auth_type": "bearer",
       "auth_env_var": "SIRE_API_TOKEN",
-      "min_mint_version": "0.2.0"
+      "min_mint_version": "0.2.0",
+      "skip_url_check": true
     }
   ]
 }

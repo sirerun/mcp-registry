@@ -19,6 +19,8 @@ jobs:
       - name: Validate registry schema and fields
         working-directory: tools
         run: go run validate.go ../registry.json
+        env:
+          CHECK_URLS: "false"
 
       - name: Check spec URLs are reachable
         working-directory: tools

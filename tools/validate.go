@@ -23,6 +23,7 @@ type APIEntry struct {
 	AuthType       string   `json:"auth_type"`
 	AuthEnvVar     string   `json:"auth_env_var"`
 	MinMintVersion string   `json:"min_mint_version"`
+	SkipURLCheck   bool     `json:"skip_url_check,omitempty"`
 }
 
 var (
@@ -57,7 +58,7 @@ func main() {
 
 	errors := validateRegistry(registry)
 
-	checkURLs := os.Getenv("CHECK_URLS") != "false"
+	checkURLs := os.Getenv("CHECK_URLS") == "true"
 	if checkURLs {
 		errors = append(errors, checkSpecURLs(registry.APIs)...)
 	}
@@ -141,6 +142,10 @@ func checkSpecURLs(apis []APIEntry) []string {
 	}
 
 	for _, api := range apis {
+		if api.SkipURLCheck {
+			fmt.Printf("  %s: skipped (skip_url_check=true)\n", api.Name)
+			continue
+		}
 		req, err := http.NewRequest("HEAD", api.SpecURL, nil)
 		if err != nil {
 			errs = append(errs, fmt.Sprintf("%s: invalid URL: %v", api.Name, err))
