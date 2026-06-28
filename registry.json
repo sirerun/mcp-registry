@@ -32540,6 +32540,20 @@
       "min_mint_version": "0.2.0"
     },
     {
+      "name": "xquik",
+      "description": "Xquik API for X tweet, user, trend, media, monitor, and automation workflows",
+      "tags": [
+        "social",
+        "data",
+        "analytics",
+        "automation"
+      ],
+      "spec_url": "https://xquik.com/openapi.yaml",
+      "auth_type": "api_key",
+      "auth_env_var": "XQUIK_API_KEY",
+      "min_mint_version": "0.2.0"
+    },
+    {
       "name": "xtrfeu",
       "description": "XTRF Home Portal API enables you to perform operations on Projects, Quotes, Customers, Vendors etc. as a XTRF Home Portal user. The documentation i...",
       "tags": [
