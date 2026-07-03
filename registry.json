@@ -23488,6 +23488,7 @@
       "auth_type": "bearer",
       "auth_env_var": "GITLAB_TOKEN",
       "min_mint_version": "0.2.0",
+      "skip_url_check": true,
       "verification": {
         "tier": "t1"
       }
@@ -31824,6 +31825,7 @@
       "auth_type": "api_key",
       "auth_env_var": "MIXPANEL_API_SECRET",
       "min_mint_version": "0.2.0",
+      "skip_url_check": true,
       "verification": {
         "tier": "t1"
       }
@@ -32067,6 +32069,7 @@
       "auth_type": "api_key",
       "auth_env_var": "N8N_API_KEY",
       "min_mint_version": "0.2.0",
+      "skip_url_check": true,
       "verification": {
         "tier": "t1"
       }
