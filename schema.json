@@ -71,6 +71,43 @@
           "type": "string",
           "pattern": "^\\d+\\.\\d+\\.\\d+$",
           "description": "Minimum mint CLI version required"
+        },
+        "skip_url_check": {
+          "type": "boolean",
+          "description": "Skip spec_url reachability check (for not-yet-deployed specs)"
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["tier"],
+      "additionalProperties": false,
+      "description": "Functional-verification state recorded by the verification harness (ADR-179/180)",
+      "properties": {
+        "tier": {
+          "type": "string",
+          "enum": ["t0", "t1", "t2", "t3", "t4", "t5"],
+          "description": "Highest verification tier the entry has passed"
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of the last successful verification"
+        },
+        "verifier_version": {
+          "type": "string",
+          "description": "Version of the verification harness that produced this record"
+        },
+        "failure_code": {
+          "type": "string",
+          "description": "Machine-readable code for the failure that capped the tier"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Human-readable detail about the verification result"
         }
       }
     }
